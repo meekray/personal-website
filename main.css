@@ -1,0 +1,170 @@
+/*//////////////////////////// main /////////////////////////////////*/
+.styleNav{
+    font-size: 120%;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #EB7260;
+}
+
+.sectionLight{
+    background-color: #354458;
+    color: white;
+}
+
+.about-me{
+    background-color: #eceeef;
+    color: #354458;
+}
+
+.alignPar{
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.jumbotron{
+    text-align: center;
+    background: none;
+    height: 100%;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+a:visited{
+    color: white;
+}
+
+a, navbarNavDropdown{
+    color: #fff;
+}
+
+.navbar-nav {
+    float:none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    float: none;
+}
+
+.navbar-brand{
+    display: block;
+    margin: auto;
+}
+
+.navbar-toggler {
+    display: block;
+    margin: auto;
+    border-color: rgba(255,255,255,1);
+    color: white;
+}
+
+a.dropdown-item:visited{
+    color: #354458;
+}
+
+
+.profilePhoto{
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.col-sm-12{
+    height: 100%;
+    box-sizing: 100%;
+}
+/*//////////////////////////// Projects ///////////////////////////////*/
+.project-row{
+    height: 100%;
+    width: 100%;
+}
+
+.projects-bar{
+    height: 100%;   
+    background-color: #354458;
+    font-family: 'Raleway', sans-serif;
+/*    background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);*/
+}
+
+.project-list{
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 170%;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/*////////////Footer///////////////////////////*/
+
+.copyright{
+    background-color: #77C5F7;
+    color: white;
+    padding: 10px;
+}
+
+p.copyright{
+    display: block;
+    text-align: center;
+}
+
+/*////////////////Experience///////////////////*/
+.exp-title{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    float: none;
+    
+}
+
+.exp-img{
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    
+    display: block;
+    float: none;
+    margin: auto;
+    text-align: center;
+    
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.exp-text{
+    display: block;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box{
+    display: inline-block;
+    margin: auto;
+    float: none;
+    text-align: center;
+}
+
+.no-padding{
+    padding: none;
+}
