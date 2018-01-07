@@ -65,6 +65,10 @@ a, navbarNavDropdown{
     color: white;
 }
 
+a.{
+
+}
+
 a.dropdown-item:visited{
     color: #354458;
 }
@@ -167,4 +171,49 @@ p.copyright{
 
 .no-padding{
     padding: none;
+}
+
+/*//////////////////// BLOGS //////////////////////*/
+
+.blog-col{
+    height: 90vh;
+    color: #354458;
+}
+
+.blog-thumbnail{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    background-color: white;
+
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardb-block:hover{
+    opacity: .8;
+}
+.card{
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 25rem;
+}
+.card-text{
+    color: #354458;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+img.card-img-top{
+    width 400px;
+    max-height: 400px;
+    border-radius: 7px;
+    max-width: 100%;
 }
